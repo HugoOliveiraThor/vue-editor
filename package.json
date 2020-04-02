@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
+    "start": "node server.js"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^18.0.0",
@@ -15,7 +16,9 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "core-js": "^3.6.4",
+    "express": "^4.17.1",
     "fuse.js": "^3.4.6",
+    "serve-static": "^1.14.1",
     "tippy.js": "^4.3.5",
     "tiptap": "^1.26.6",
     "tiptap-extensions": "^1.28.6",
